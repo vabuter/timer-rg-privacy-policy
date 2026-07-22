@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timer RG — Политика конфиденциальности / Privacy Policy</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%235eead4'/%3E%3Cstop%20offset='1'%20stop-color='%23818cf8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20x='2'%20y='2'%20width='28'%20height='28'%20rx='7'%20fill='%230b0e14'/%3E%3Crect%20x='2'%20y='2'%20width='28'%20height='28'%20rx='7'%20fill='none'%20stroke='url(%23g)'%20stroke-width='2.5'/%3E%3Ccircle%20cx='16'%20cy='16'%20r='6'%20fill='url(%23g)'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#0b0e14; --panel:#121722; --line:#232b3d; --ink:#dbe2ee; --muted:#8b94a8;
+    --acc1:#5eead4; --acc2:#818cf8; --acc-grad:linear-gradient(120deg,var(--acc1),var(--acc2));
+  }
+  @media (prefers-color-scheme:light){
+    :root{--bg:#f6f8fb; --panel:#fff; --line:#dde3ee; --ink:#1a2030; --muted:#5c6577; --acc1:#0e9f8a; --acc2:#5a63e8;}
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--ink); line-height:1.7;
+    font-family:ui-sans-serif,system-ui,"Segoe UI",Roboto,Arial,sans-serif;}
+  .wrap{max-width:44rem; margin:0 auto; padding:2.4rem 1.3rem 4rem;}
+  header{display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between;
+    border-bottom:1px solid var(--line); padding-bottom:1.1rem; margin-bottom:1.6rem;}
+  h1{font-size:1.5rem; font-weight:800; letter-spacing:-.02em; margin:0;
+    background:var(--acc-grad); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .sub{color:var(--muted); font-size:.9rem; margin:.2rem 0 0;}
+  .switch{display:flex; border:1px solid var(--line); border-radius:999px; overflow:hidden;}
+  .switch button{border:0; background:transparent; color:var(--muted); font:inherit; font-weight:600;
+    font-size:.82rem; padding:.35rem .9rem; cursor:pointer;}
+  html[data-lang="ru"] .switch [data-set="ru"], html[data-lang="en"] .switch [data-set="en"]{
+    background:var(--acc-grad); color:#0b0e14;}
+  h2{font-size:1.1rem; font-weight:700; margin:2rem 0 .5rem; color:var(--acc2);}
+  p{margin:.6rem 0;} ul{padding-left:1.3rem;} li{margin:.35rem 0;}
+  code{background:color-mix(in srgb,var(--acc2) 14%,transparent); padding:.1em .4em; border-radius:5px;
+    font-family:ui-monospace,Consolas,monospace; font-size:.88em;}
+  a{color:var(--acc2);}
+  .lead{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--acc1);
+    border-radius:0 12px 12px 0; padding:.9rem 1.2rem; margin:1.2rem 0;}
+  footer{margin-top:2.5rem; padding-top:1.1rem; border-top:1px solid var(--line);
+    color:var(--muted); font-size:.85rem;}
+  html[data-lang="ru"] .en{display:none;} html[data-lang="en"] .ru{display:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>Timer RG</h1>
+    <p class="sub"><span class="ru">Политика конфиденциальности</span><span class="en">Privacy Policy</span></p>
+  </div>
+  <div class="switch">
+    <button data-set="ru" onclick="setLang('ru')">RU</button>
+    <button data-set="en" onclick="setLang('en')">EN</button>
+  </div>
+</header>
+
+<!-- ========================= RU ========================= -->
+<div class="ru">
+  <p class="sub">Дата вступления в силу: 21 июля 2026 г.</p>
+  <div class="lead"><b>Коротко:</b> приложение Timer&nbsp;RG не собирает, не хранит и не передаёт
+    никакие персональные данные. У приложения даже нет разрешения на доступ в интернет —
+    оно физически не может отправить ваши данные куда-либо.</div>
+
+  <h2>1. Какие данные мы собираем</h2>
+  <p><b>Никакие.</b> Timer&nbsp;RG не собирает персональные данные, не требует регистрации и учётной
+    записи, не использует аналитику, рекламу и сторонние SDK.</p>
+
+  <h2>2. Отсутствие доступа в сеть</h2>
+  <p>Приложение не запрашивает разрешение <code>INTERNET</code> и не имеет сетевого кода — данные
+    не покидают устройство ни при каких условиях.</p>
+
+  <h2>3. Разрешения и зачем они нужны</h2>
+  <ul>
+    <li><b>Микрофон</b> (<code>RECORD_AUDIO</code>) — только для записи ваших голосовых подсказок
+      по явному нажатию. Записи сохраняются в приватном хранилище приложения на устройстве и никуда
+      не отправляются.</li>
+    <li><b>Уведомления</b> (<code>POST_NOTIFICATIONS</code>) — чтобы показывать таймер и управление
+      во время тренировки.</li>
+    <li><b>Фоновая работа, экран и вибрация</b> (<code>FOREGROUND_SERVICE</code>,
+      <code>WAKE_LOCK</code>, <code>VIBRATE</code>) — чтобы таймер работал при выключенном экране,
+      подавал звук и вибрацию. С данными не связаны.</li>
+  </ul>
+
+  <h2>4. Хранение данных</h2>
+  <p>Программы тренировок и голосовые записи хранятся только в приватном хранилище приложения на
+    вашем устройстве и удаляются при удалении приложения. Если вы сами экспортируете программу
+    в файл и отправляете её кому-то — это ваше явное действие, приложение ничего не передаёт само.</p>
+
+  <h2>5. Дети</h2>
+  <p>Приложение не собирает никаких данных и подходит для пользователей любого возраста.</p>
+
+  <h2>6. Изменения политики</h2>
+  <p>Мы можем обновлять эту политику; актуальная дата указана вверху страницы.</p>
+
+  <h2>7. Контакт</h2>
+  <p>Вопросы по конфиденциальности: <a href="mailto:vasily.buter@gmail.com">vasily.buter@gmail.com</a></p>
+</div>
+
+<!-- ========================= EN ========================= -->
+<div class="en">
+  <p class="sub">Effective date: July 21, 2026</p>
+  <div class="lead"><b>In short:</b> Timer&nbsp;RG does not collect, store, or transmit any personal
+    data. The app does not even request Internet access — it physically cannot send your data anywhere.</div>
+
+  <h2>1. Data we collect</h2>
+  <p><b>None.</b> Timer&nbsp;RG collects no personal data, requires no sign-up or account, and uses no
+    analytics, advertising, or third-party SDKs.</p>
+
+  <h2>2. No network access</h2>
+  <p>The app does not request the <code>INTERNET</code> permission and contains no networking code —
+    your data never leaves the device under any circumstances.</p>
+
+  <h2>3. Permissions and why they are used</h2>
+  <ul>
+    <li><b>Microphone</b> (<code>RECORD_AUDIO</code>) — only to record your own voice cues on an explicit
+      tap. Recordings are saved in the app's private storage on the device and are never uploaded.</li>
+    <li><b>Notifications</b> (<code>POST_NOTIFICATIONS</code>) — to show the running timer and its
+      controls during a workout.</li>
+    <li><b>Background, wake &amp; vibration</b> (<code>FOREGROUND_SERVICE</code>, <code>WAKE_LOCK</code>,
+      <code>VIBRATE</code>) — so the timer keeps running with the screen off and plays sound and
+      vibration. Not related to any data.</li>
+  </ul>
+
+  <h2>4. Data storage</h2>
+  <p>Workout programs and voice recordings are stored only in the app's private storage on your device
+    and are removed when the app is uninstalled. If you explicitly export a program to a file and share
+    it, that is your own action — the app never transmits anything on its own.</p>
+
+  <h2>5. Children</h2>
+  <p>The app collects no data and is suitable for users of any age.</p>
+
+  <h2>6. Changes to this policy</h2>
+  <p>We may update this policy; the current effective date is shown at the top of the page.</p>
+
+  <h2>7. Contact</h2>
+  <p>Privacy questions: <a href="mailto:vasily.buter@gmail.com">vasily.buter@gmail.com</a></p>
+</div>
+
+<footer>Timer RG · <span class="ru">интервальный таймер для тренировок</span><span class="en">interval timer for workouts</span></footer>
+</div>
+
+<script>
+function setLang(l){document.documentElement.setAttribute('data-lang',l);
+  document.documentElement.setAttribute('lang',l);
+  try{localStorage.setItem('trg-privacy-lang',l);}catch(e){}}
+(function(){var s=null;try{s=localStorage.getItem('trg-privacy-lang');}catch(e){}
+  if(!s){s=(navigator.language||'ru').toLowerCase().startsWith('ru')?'ru':'en';}
+  setLang(s);})();
+</script>
+</body>
+</html>
