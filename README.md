@@ -6,7 +6,7 @@
 
 **EN** · This repository hosts the privacy policy for **Timer RG**, an interval timer
 for workouts.
-Policy page: **https://vab84.github.io/timer-rg-privacy-policy/**
+Policy page: **https://vabuter.github.io/timer-rg-privacy-policy/**
 
 ---
 
