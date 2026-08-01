@@ -2,7 +2,7 @@
 
 **RU** · Репозиторий с политикой конфиденциальности приложения **Timer RG** —
 интервального таймера для тренировок.
-Страница политики: **https://vab84.github.io/timer-rg-privacy-policy/**
+Страница политики: **https://vabuter.github.io/timer-rg-privacy-policy/**
 
 **EN** · This repository hosts the privacy policy for **Timer RG**, an interval timer
 for workouts.
@@ -53,3 +53,5 @@ even with loud music — vibration and a bright screen flash back up the sound.
 
 🔒 **Privacy:** the app collects no data and has no Internet access.
 See the [policy page](https://vab84.github.io/timer-rg-privacy-policy/) for details.
+
+
