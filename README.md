@@ -25,8 +25,7 @@ Policy page: **https://vabuter.github.io/timer-rg-privacy-policy/**
 
 **Бесплатно, без рекламы, без сбора данных** — всё хранится только на устройстве.
 
-📲 **Скачать в RuStore:** _ссылка появится после публикации_
-<!-- https://apps.rustore.ru/app/org.timerrg -->
+📲 **Скачать в RuStore:** https://www.rustore.ru/catalog/app/org.timerrg
 
 🔒 **Конфиденциальность:** приложение не собирает никаких данных и не имеет доступа в интернет.
 Подробнее — на [странице политики](https://vab84.github.io/timer-rg-privacy-policy/).
@@ -48,8 +47,7 @@ even with loud music — vibration and a bright screen flash back up the sound.
 
 **Free, no ads, no data collection** — everything is stored only on your device.
 
-📲 **Get it on RuStore:** _link will be added after publishing_
-<!-- https://apps.rustore.ru/app/org.timerrg -->
+📲 **Get it on RuStore:** https://www.rustore.ru/catalog/app/org.timerrg
 
 🔒 **Privacy:** the app collects no data and has no Internet access.
 See the [policy page](https://vab84.github.io/timer-rg-privacy-policy/) for details.
